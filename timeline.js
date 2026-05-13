@@ -20,7 +20,7 @@ async function loadTimelineData() {
 
     try {
         // Запрос к JSON. Путь указан относительно index.html.
-        const response = await fetch('science-timeline/data/discoveries.json');
+        const response = await fetch('data/discoveries.json');
 
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
@@ -31,7 +31,7 @@ async function loadTimelineData() {
 
     } catch (error) {
         console.error('Ошибка загрузки данных:', error);
-        container.innerHTML = `<p style="color: red; text-align: center;">Ошибка загрузки базы данных открытий. Убедитесь, что discoveries.json доступен по пути ../data/discoveries.json.</p>`;
+        container.innerHTML = `<p style="color: red; text-align: center;">Ошибка загрузки базы данных открытий. Убедитесь, что discoveries.json доступен по пути /data/discoveries.json.</p>`;
     }
 }
 
