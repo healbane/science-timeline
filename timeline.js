@@ -20,8 +20,7 @@ async function loadTimelineData() {
 
     try {
         // Запрос к JSON. Путь указан относительно index.html.
-        // Согласно структуре, папка data находится на одном уровне с webapp.
-        const response = await fetch('../data/discoveries.json');
+        const response = await fetch('science-timeline/data/discoveries.json');
 
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
