@@ -9,19 +9,24 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   loadTimelineData();
-  setupFilters();
 });
 
 async function loadTimelineData() {
   const container = document.getElementById('timeline-container');
   try {
-    const response = await fetch('data/discoveries.json');
+    // Если index.html лежит в корне, а JSON в папке data/
+    const response = await fetch('./data/discoveries.json');
+
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
     const data = await response.json();
+    allData = data; // Сохраняем для фильтров
+
+    createFilterButtons(data);
     renderTimeline(data, container);
   } catch (error) {
     console.error('Ошибка загрузки:', error);
-    container.innerHTML = `<p class="error-msg">Не удалось загрузить данные.<br>Убедитесь, что файл <code>data/discoveries.json</code> существует.</p>`;
+    container.innerHTML = `<p class="error-msg">Ошибка: ${error.message}</p>`;
   }
 }
 function createFilterButtons(data) {
