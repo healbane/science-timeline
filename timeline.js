@@ -1,66 +1,122 @@
-// Инициализация Telegram WebApp
 const tg = window.Telegram.WebApp;
-
-// Разворачиваем приложение на максимальную высоту
 tg.expand();
 tg.ready();
 
 document.addEventListener('DOMContentLoaded', () => {
-    // Вывод имени пользователя, если открыто в Telegram
-    const userInfo = document.getElementById('user-info');
-    if (tg.initDataUnsafe && tg.initDataUnsafe.user) {
-        userInfo.textContent = `Привет, ${tg.initDataUnsafe.user.first_name}!`;
-    }
+  const userInfo = document.getElementById('user-info');
+  if (tg.initDataUnsafe && tg.initDataUnsafe.user) {
+    userInfo.textContent = `Привет, ${tg.initDataUnsafe.user.first_name}!`;
+  }
 
-    loadTimelineData();
+  loadTimelineData();
+  setupFilters();
 });
 
 async function loadTimelineData() {
-    const container = document.getElementById('timeline-container');
-
-    try {
-        // Запрос к JSON. Путь указан относительно index.html.
-        const response = await fetch('data/discoveries.json');
-
-        if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
-        }
-
-        const data = await response.json();
-        renderTimeline(data, container);
-
-    } catch (error) {
-        console.error('Ошибка загрузки данных:', error);
-        container.innerHTML = `<p style="color: red; text-align: center;">Ошибка загрузки базы данных открытий. Убедитесь, что discoveries.json доступен по пути /data/discoveries.json.</p>`;
-    }
+  const container = document.getElementById('timeline-container');
+  try {
+    const response = await fetch('data/discoveries.json');
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const data = await response.json();
+    renderTimeline(data, container);
+  } catch (error) {
+    console.error('Ошибка загрузки:', error);
+    container.innerHTML = `<p class="error-msg">Не удалось загрузить данные.<br>Убедитесь, что файл <code>data/discoveries.json</code> существует.</p>`;
+  }
 }
 
 function renderTimeline(data, container) {
-    container.innerHTML = ''; // Очистка лоадера
+  container.innerHTML = '';
 
-    // Ожидаемая структура data: [{ epoch: "XVIII век", items: [{ year: "1711", title: "...", desc: "..." }] }]
-    data.forEach(epochData => {
-        const section = document.createElement('section');
-        section.className = 'epoch-section';
+  data.forEach((epochData, epochIndex) => {
+    const section = document.createElement('section');
+    section.className = 'epoch-section';
 
-        const title = document.createElement('h2');
-        title.className = 'epoch-title';
-        title.textContent = epochData.epoch;
-        section.appendChild(title);
+    const title = document.createElement('div');
+    title.className = 'epoch-title';
+    title.textContent = epochData.epoch;
+    section.appendChild(title);
 
-        epochData.items.forEach(item => {
-            const div = document.createElement('div');
-            div.className = 'timeline-item';
+    const line = document.createElement('div');
+    line.className = 'tl-line';
 
-            div.innerHTML = `
-                <div class="item-year">${item.year}</div>
-                <h3 class="item-title">${item.title}</h3>
-                <p class="item-desc">${item.desc}</p>
-            `;
+    epochData.items.forEach(item => {
+      const wrap = document.createElement('div');
+      wrap.className = 'tl-item';
+      wrap.dataset.category = item.category || '';
 
-            section.appendChild(div);
-        });
+      const dot = document.createElement('div');
+      dot.className = 'tl-dot';
 
-        container.appendChild(section);
+      const btn = document.createElement('button');
+      btn.className = 'tl-btn';
+      btn.innerHTML = `
+        <span class="tl-year">${item.year}</span>
+        <span class="tl-name">${item.title}</span>
+        <span class="tl-chevron">▼</span>
+      `;
+
+      const card = document.createElement('div');
+      card.className = 'tl-card';
+      card.innerHTML = `
+        <div class="card-emoji-banner">${item.emoji || '🔬'}</div>
+        <div class="card-body">
+          <div class="card-meta">
+            <span class="card-year-badge">${item.year}</span>
+            <span class="card-category">${item.category || ''}</span>
+          </div>
+          <div class="card-title">${item.title}</div>
+          <div class="card-desc">${item.desc}</div>
+        </div>
+      `;
+
+      btn.addEventListener('click', () => {
+        const isOpen = wrap.classList.contains('open');
+        document.querySelectorAll('.tl-item.open').forEach(el => el.classList.remove('open'));
+        if (!isOpen) wrap.classList.add('open');
+      });
+
+      wrap.appendChild(dot);
+      wrap.appendChild(btn);
+      wrap.appendChild(card);
+      line.appendChild(wrap);
     });
+
+    section.appendChild(line);
+    container.appendChild(section);
+
+    if (epochIndex < data.length - 1) {
+      const sep = document.createElement('div');
+      sep.className = 'epoch-sep';
+      container.appendChild(sep);
+    }
+  });
+}
+
+function setupFilters() {
+  const buttons = document.querySelectorAll('.filter-btn');
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      buttons.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      applyFilter(btn.dataset.cat);
+    });
+  });
+}
+
+function applyFilter(category) {
+  document.querySelectorAll('.tl-item.open').forEach(el => el.classList.remove('open'));
+
+  document.querySelectorAll('.tl-item').forEach(item => {
+    if (category === 'all' || item.dataset.category === category) {
+      item.classList.remove('hidden');
+    } else {
+      item.classList.add('hidden');
+    }
+  });
+
+  document.querySelectorAll('.epoch-section').forEach(section => {
+    const visible = section.querySelectorAll('.tl-item:not(.hidden)').length;
+    section.classList.toggle('all-hidden', visible === 0);
+  });
 }

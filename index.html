@@ -1,24 +1,44 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Наука и техника России</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Лента открытий России</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
 </head>
 <body>
-    <div id="app">
-        <header>
-            <h1>Лента открытий</h1>
-            <p id="user-info"></p>
-        </header>
-
-        <main id="timeline-container">
-            <div class="loader">Загрузка данных...</div>
-        </main>
+  <header class="header">
+    <div class="header-inner">
+      <div class="header-icon">⚗️</div>
+      <div>
+        <h1 class="header-title">Лента открытий</h1>
+        <p class="header-sub">Наука и техника России</p>
+      </div>
     </div>
+    <div id="user-info" class="user-info"></div>
+  </header>
 
-    <script src="timeline.js"></script>
+  <div class="filters" id="filters">
+    <button class="filter-btn active" data-cat="all">Все</button>
+    <button class="filter-btn" data-cat="наука">Наука</button>
+    <button class="filter-btn" data-cat="физика">Физика</button>
+    <button class="filter-btn" data-cat="химия">Химия</button>
+    <button class="filter-btn" data-cat="космос">Космос</button>
+    <button class="filter-btn" data-cat="математика">Математика</button>
+    <button class="filter-btn" data-cat="география">География</button>
+    <button class="filter-btn" data-cat="культура">Культура</button>
+  </div>
+
+  <main id="timeline-container" class="timeline-container">
+    <div class="loader">
+      <div class="spinner"></div>
+      <p>Загружаем открытия...</p>
+    </div>
+  </main>
+
+  <script src="timeline.js"></script>
 </body>
 </html>
