@@ -24,6 +24,33 @@ async function loadTimelineData() {
     container.innerHTML = `<p class="error-msg">Не удалось загрузить данные.<br>Убедитесь, что файл <code>data/discoveries.json</code> существует.</p>`;
   }
 }
+function createFilterButtons(data) {
+    const filterContainer = document.getElementById('filter-buttons');
+
+    data.forEach(epochData => {
+        const btn = document.createElement('button');
+        btn.className = 'filter-btn';
+        btn.textContent = epochData.epoch.split(' (')[0]; // Укорачиваем название для кнопок
+        btn.dataset.epoch = epochData.epoch;
+
+        btn.addEventListener('click', (e) => {
+            // Смена активной кнопки
+            document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+
+            // Фильтрация
+            const selected = e.target.dataset.epoch;
+            if (selected === 'all') {
+                renderTimeline(allData);
+            } else {
+                const filtered = allData.filter(d => d.epoch === selected);
+                renderTimeline(filtered);
+            }
+        });
+
+        filterContainer.appendChild(btn);
+    });
+}
 
 function renderTimeline(data, container) {
   container.innerHTML = '';
@@ -56,10 +83,15 @@ function renderTimeline(data, container) {
         <span class="tl-chevron">▼</span>
       `;
 
+      // Картинка если есть, иначе серый плейсхолдер
+      const mediaBanner = item.image
+        ? `<img src="${item.image}" class="card-img" alt="${item.title}" />`
+        : `<div class="card-img-placeholder"><span>Нет изображения</span></div>`;
+
       const card = document.createElement('div');
       card.className = 'tl-card';
       card.innerHTML = `
-        <div class="card-emoji-banner">${item.emoji || '🔬'}</div>
+        ${mediaBanner}
         <div class="card-body">
           <div class="card-meta">
             <span class="card-year-badge">${item.year}</span>
@@ -93,27 +125,6 @@ function renderTimeline(data, container) {
   });
 }
 
-function setupFilters() {
-  const buttons = document.querySelectorAll('.filter-btn');
-  buttons.forEach(btn => {
-    btn.addEventListener('click', () => {
-      buttons.forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      applyFilter(btn.dataset.cat);
-    });
-  });
-}
-
-function applyFilter(category) {
-  document.querySelectorAll('.tl-item.open').forEach(el => el.classList.remove('open'));
-
-  document.querySelectorAll('.tl-item').forEach(item => {
-    if (category === 'all' || item.dataset.category === category) {
-      item.classList.remove('hidden');
-    } else {
-      item.classList.add('hidden');
-    }
-  });
 
   document.querySelectorAll('.epoch-section').forEach(section => {
     const visible = section.querySelectorAll('.tl-item:not(.hidden)').length;

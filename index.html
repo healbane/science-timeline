@@ -3,16 +3,17 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Лента открытий России</title>
+  <title>Лента открытий</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
   <script src="https://telegram.org/js/telegram-web-app.js"></script>
 </head>
 <body>
-  <header class="header">
+
+<header class="header">
     <div class="header-inner">
-      <div class="header-icon">⚗️</div>
+      <img src="itmo-logo.png" alt="ИТМО" class="header-logo" />
       <div>
         <h1 class="header-title">Лента открытий</h1>
         <p class="header-sub">Наука и техника России</p>
@@ -21,16 +22,12 @@
     <div id="user-info" class="user-info"></div>
   </header>
 
-  <div class="filters" id="filters">
-    <button class="filter-btn active" data-cat="all">Все</button>
-    <button class="filter-btn" data-cat="наука">Наука</button>
-    <button class="filter-btn" data-cat="физика">Физика</button>
-    <button class="filter-btn" data-cat="химия">Химия</button>
-    <button class="filter-btn" data-cat="космос">Космос</button>
-    <button class="filter-btn" data-cat="математика">Математика</button>
-    <button class="filter-btn" data-cat="география">География</button>
-    <button class="filter-btn" data-cat="культура">Культура</button>
-  </div>
+  <!-- Новый блок фильтрации -->
+  <nav class="filter-nav">
+    <div id="filter-buttons" class="filter-buttons">
+      <button class="filter-btn active" data-epoch="all">Все эпохи</button>
+    </div>
+  </nav>
 
   <main id="timeline-container" class="timeline-container">
     <div class="loader">
