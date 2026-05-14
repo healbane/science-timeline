@@ -35,26 +35,39 @@ function createFilterButtons(data) {
     const filterContainer = document.getElementById('filter-buttons');
     if (!filterContainer) return;
     
-    // Очищаем и добавляем кнопку "Все"
-    filterContainer.innerHTML = '<button class="filter-btn active" data-epoch="all">Все эпохи</button>';
+    // 1. Очищаем контейнер
+    filterContainer.innerHTML = '';
 
-    data.forEach(epochData => {
+    // 2. Создаем массив из всех нужных нам кнопок (сначала "Все", потом остальные)
+    const buttonsToCreate = [
+        { label: 'Все эпохи', epoch: 'all' },
+        ...data.map(item => ({ label: item.epoch.split(' (')[0], epoch: item.epoch }))
+    ];
+
+    // 3. Создаем кнопки в одном цикле, чтобы у каждой был рабочий обработчик
+    buttonsToCreate.forEach((btnInfo, index) => {
         const btn = document.createElement('button');
-        btn.className = 'filter-btn';
-        btn.textContent = epochData.epoch.split(' (')[0]; 
-        btn.dataset.epoch = epochData.epoch;
+        btn.className = 'filter-btn' + (btnInfo.epoch === 'all' ? ' active' : '');
+        btn.textContent = btnInfo.label;
+        btn.dataset.epoch = btnInfo.epoch;
         
         btn.addEventListener('click', (e) => {
+            // Убираем активный класс у всех и ставим текущей
             document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
             
+            // Фильтруем данные
             const selected = e.target.dataset.epoch;
-            renderTimeline(selected === 'all' ? allData : allData.filter(d => d.epoch === selected));
+            if (selected === 'all') {
+                renderTimeline(allData); // Показываем всё
+            } else {
+                renderTimeline(allData.filter(d => d.epoch === selected)); // Фильтруем
+            }
         });
+        
         filterContainer.appendChild(btn);
     });
 }
-
 function renderTimeline(data) {
   const container = document.getElementById('timeline-container');
   container.innerHTML = ''; 
