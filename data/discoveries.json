@@ -65,7 +65,7 @@
         "year": "1703",
         "title": "Первая печатная газета «Ведомости»",
         "desc": "Создана по указу Петра I как первый официальный инструмент информирования населения о реформах, военных успехах и зарубежных новостях. Стала фундаментом российской периодической печати.",
-        "image": "gazeta.jpg"
+        "image": "images/gazeta.jpg"
       },
       {
         "year": "1714",
@@ -208,7 +208,7 @@
         "year": "1841",
         "title": "Закон Джоуля — Ленца",
         "desc": "Эмилий Ленц (независимо от Джоуля) открыл закон теплового действия тока. Это знание критически важно для проектирования любых ЛЭП и электронагревательных приборов.",
-        "image": "images/zakonJL.jpg"
+        "image": ""
       },
       {
         "year": "1844",
@@ -280,43 +280,37 @@
         "year": "1882",
         "title": "Самолет Александра Можайского",
         "desc": "Один из первых в истории самолетов в натуральную величину. Конструкция Можайского объединила в себе все основные узлы современного авиалайнера: фюзеляж, крыло и двигатель.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Alexander_Mozhayskiy.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+        "image": "images/mozhaiski.jpg"
       },
       {
         "year": "1882",
         "title": "Основы иммунологии",
         "desc": "Илья Мечников открыл явление фагоцитоза — способности клеток организма бороться с инфекциями. Это открытие принесло ему Нобелевскую премию и легло в основу медицины.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/Lev_Zilber.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+        "image": "images/mechnikov.jpg"
       },
       {
         "year": "1882",
         "title": "Дуговая электросварка Бенардоса",
         "desc": "Николай Бенардос изобрел способ соединения металлов с помощью электрической дуги. Сегодня без сварки невозможно представить строительство зданий, кораблей и самолетов.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Benardos_N.N.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+        "image": "images/benardos.jpg"
       },
       {
         "year": "1883",
         "title": "Научное почвоведение Докучаева",
         "desc": "Василий Докучаев доказал, что почва — это самостоятельное «живое тело», создав новую науку. Его труды изменили мировое сельское хозяйство и экологию.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/5/53/Dokuchaev_1888.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
-      },
-      {
-        "year": "1887",
-        "title": "Первый синтез изопрена",
-        "desc": "Иван Кондаков впервые получил вещество, из которого позже научились делать синтетический каучук. Это открытие позволило миру отказаться от дефицитной натуральной резины.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Isoprene_Structural_Formulae_V.2.svg/1280px-Isoprene_Structural_Formulae_V.2.svg.png?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+        "image": "images/Dokuchaev_1888.jpg"
       },
       {
         "year": "1888",
         "title": "Законы фотоэффекта Столетова",
         "desc": "Александр Столетов экспериментально открыл законы фотоэффекта. На этих знаниях основана работа современных солнечных батарей, датчиков света и цифровых камер.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/3/35/Alexander_stoletov.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+        "image": "images/Alexander_stoletov.jpg"
       },
       {
         "year": "1888",
         "title": "Сварка Николая Славянова",
         "desc": "Славянов усовершенствовал сварку, предложив использовать плавящийся металлический электрод. Этот метод остается основным в промышленности спустя более 130 лет.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Benardos_N.N.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+        "image": "images/ngslav_1.jpg"
       },
       {
         "year": "1888",
@@ -328,7 +322,7 @@
         "year": "1890",
         "title": "Трехфазная система тока",
         "desc": "Михаил Доливо-Добровольский разработал систему передачи энергии, которая используется во всех электросетях мира сегодня благодаря своей эффективности.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Gorskii_04414u.jpg/1280px-Gorskii_04414u.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+        "image": "images/mijaill.jpg"
       },
       {
         "year": "1892",
@@ -340,19 +334,19 @@
         "year": "1895",
         "title": "Изобретение радио Александром Поповым",
         "desc": "Попов продемонстрировал первый в мире прибор для регистрации радиоволн. Это событие стало началом эры беспроводной связи, ТВ, интернета и мобильных телефонов.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Alexander_Stepanovich_Popov.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+        "image": "images/Alexander_Stepanovich_Popov.jpg"
       },
       {
         "year": "1898",
         "title": "Первый ледокол «Ермак»",
         "desc": "Построен по проекту адмирала Степана Макарова. Стал первым в мире судном арктического класса, открыв путь к круглогодичному освоению Северного морского пути.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/7/72/RIAN_archive_314495_Lenin_nuclear_ice-breaker_on_the_Neva_River.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+        "image": "images/Yermak_icebreaker.jpg"
       },
       {
         "year": "1899",
         "title": "Давление света Петра Лебедева",
         "desc": "Лебедев первым в мире экспериментально измерил давление света на тела. Этот опыт подтвердил электромагнитную теорию Максвелла и стал триумфом русской физики.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Lebedev_petr_nikolaevich.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+        "image": "images/lebedev.jpg"
       }
     ]
   },
@@ -363,7 +357,7 @@
         "year": "1903",
         "title": "Формула Циолковского",
         "desc": "Константин Циолковский вывел фундаментальное уравнение реактивного движения. Это математически доказало возможность космических полетов и стало теоретическим фундаментом всей мировой космонавтики.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Soyuz_TMA-5_launch.jpg/1280px-Soyuz_TMA-5_launch.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+        "image": "images/ciolkovskiy.jpg"
       },
       {
         "year": "1903",
@@ -381,49 +375,49 @@
         "year": "1904",
         "title": "Создание «бомбы Ипатьева»",
         "desc": "Владимир Ипатьев сконструировал автоклав для катализа при сверхвысоких давлениях. Это изобретение сделало возможным современную нефтехимию и промышленный синтез топлива и полимеров.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Mikola_II_%28cropped%29-2.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+        "image": "images/ipatev.jpg"
       },
       {
         "year": "1906",
         "title": "Изобретение электромагнитного сейсмографа",
         "desc": "Борис Голицын создал прибор, преобразующий колебания земли в электрический ток. Его конструкция стала мировым эталоном и позволила точно фиксировать землетрясения в любой точке планеты.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Mars_Valles_Marineris_EDIT.jpg/1280px-Mars_Valles_Marineris_EDIT.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+        "image": "images/golicin.jpg"
       },
       {
         "year": "1907",
         "title": "Электронно-лучевая трубка для ТВ",
         "desc": "Борис Розинг запатентовал и реализовал способ передачи изображения с помощью электронного луча. Это открытие легло в основу создания современного электронного телевидения.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/John_Logie_Baird_and_Stooky_Bill.png/1280px-John_Logie_Baird_and_Stooky_Bill.png?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+        "image": "images/trubka.jpg"
       },
       {
         "year": "1911",
         "title": "Ранцевый парашют РК-1",
         "desc": "Глеб Котельников изобрел компактный парашют, укладываемый в металлический ранец. Это изобретение спасло тысячи жизней летчиков и определило конструкцию всех современных парашютных систем.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_the_Russian_Airborne_Troops.svg/1280px-Flag_of_the_Russian_Airborne_Troops.svg.png?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+        "image": "images/parashut.jpg"
       },
       {
         "year": "1912",
         "title": "Аэросани Игоря Сикорского",
         "desc": "Сикорский создал надежный транспорт для заснеженных территорий с двигателем внутреннего сгорания. Это стало важным этапом в освоении северных регионов России и развитии вездеходной техники.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Sikorsky%2C_Igor.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+        "image": "images/sikorski_aerosani_10_2.jpg"
       },
       {
         "year": "1913",
         "title": "Первая неинвазивная электроэнцефалограмма",
         "desc": "Владимир Правдич-Неминский впервые зафиксировал электрическую активность мозга. Это достижение положило начало клинической нейрофизиологии и методам диагностики работы мозга.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Ilya_Ilyich_Mechnikov_1913.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+        "image": "images/123123s.jpg"
       },
       {
         "year": "1913",
         "title": "Летающая лодка М-1",
         "desc": "Дмитрий Григорович спроектировал первый в мире серийный гидроплан. Это позволило России занять лидирующие позиции в создании морской авиации и палубных самолетов.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/H-4_Hercules_2.jpg/1280px-H-4_Hercules_2.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+        "image": "images/im2134ges.jpg"
       },
       {
         "year": "1913",
         "title": "Самолет «Илья Муромец»",
         "desc": "Игорь Сикорский построил первый в мире четырехмоторный тяжелый бомбардировщик и пассажирский лайнер. Самолет установил мировые рекорды грузоподъемности и дальности полета.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Vastnetsov_1914.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+        "image": "images/14082007-Illya-Muromec-1.jpg"
       },
       {
         "year": "1913",
@@ -435,19 +429,19 @@
         "year": "1915",
         "title": "Угольный противогаз Зелинского",
         "desc": "Николай Зелинский изобрел универсальный фильтрующий противогаз на основе активированного угля. В годы Первой мировой войны это изобретение спасло миллионы солдат от химического оружия.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/b/b6/%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B9_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B5%D0%B2%D0%B8%D1%87_%D0%97%D0%B5%D0%BB%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+        "image": "images/P1gasmask.jpg"
       },
       {
         "year": "1916",
         "title": "Создание автомата Фёдорова",
         "desc": "Владимир Фёдоров разработал первую в мире автоматическую винтовку под промежуточный патрон. Это оружие предвосхитило появление современных штурмовых винтовок на десятилетия вперед.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/M4-M203.jpg/1280px-M4-M203.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+        "image": "images/avtomat_fedorova.jpg"
       },
       {
         "year": "1918",
         "title": "Основание ЦАГИ",
         "desc": "Николай Жуковский создал Центральный аэрогидродинамический институт. Эта организация стала «колыбелью» всей советской авиации, где проходили испытания все легендарные самолеты Туполева и Сухого.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Bv_m4_02.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+        "image": "images/924.jpg"
       },
       {
         "year": "1919",
@@ -459,7 +453,7 @@
         "year": "1920",
         "title": "Разработка плана ГОЭЛРО",
         "desc": "Первый государственный план масштабной электрификации страны. Реализация плана превратила аграрную Россию в мощную индустриальную державу и создала единую энергетическую систему.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/%D0%94%D0%BD%D1%96%D0%BF%D1%80%D0%BE%D0%B3%D0%B5%D1%81_%D0%B7_%D0%B2%D0%B8%D1%81%D0%BE%D1%82%D0%B8.jpg/1280px-%D0%94%D0%BD%D1%96%D0%BF%D1%80%D0%BE%D0%B3%D0%B5%D1%81_%D0%B7_%D0%B2%D0%B8%D1%81%D0%BE%D1%82%D0%B8.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+        "image": "images.jpg/22122020_17.jpg"
       }
     ]
   },
@@ -470,55 +464,55 @@
         "year": "1922",
         "title": "Модель расширяющейся Вселенной",
         "desc": "Александр Фридман математически доказал, что Вселенная не статична, а расширяется. Это открытие стало фундаментом современной космологии и предсказало теорию Большого взрыва.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Cosmological_Composition_-_Pie_Chart_Russian.png/1280px-Cosmological_Composition_-_Pie_Chart_Russian.png?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+        "image": "images/fridman.jpg"
       },
       {
         "year": "1922",
         "title": "Терменвокс",
         "desc": "Лев Термен изобрел первый в мире бесконтактный электромузыкальный инструмент. Это положило начало всей современной электронной музыке и синтезаторам.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/7/74/Lev_Termen_playing_-_cropped.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+        "image": "images/71b6428cdda176e678a160da6d0b7c1f.jpg"
       },
       {
         "year": "1922",
         "title": "Турбинный электробур",
         "desc": "Матвей Капелюшников разработал турбобур для бурения глубоких нефтяных скважин. Изобретение совершило мировую революцию в нефтедобыче, повысив скорость работ в десятки раз.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/6/61/Drilling_rig.png?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+        "image": "images/Kapelushnikov_Matvei_Alkunovich_RAS_RU.jpg"
       },
       {
         "year": "1924",
         "title": "Аппарат искусственного кровообращения",
         "desc": "Сергей Брюхоненко создал «автожектор» — первый в мире прибор, заменяющий функции сердца и легких. Это открытие сделало возможным проведение операций на открытом сердце.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/%D0%90%D0%BF%D0%BF%D0%B0%D1%80%D0%B0%D1%82_%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BA%D1%80%D0%BE%D0%B2%D0%BE%D0%BE%D0%B1%D1%80%D0%B0%D1%89%D0%B5%D0%BD%D0%B8%D1%8F_MAQUET_%28%D0%B1%D1%8B%D0%B2%D1%88._Jostra%29_HL_20.jpg/1280px-%D0%90%D0%BF%D0%BF%D0%B0%D1%80%D0%B0%D1%82_%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BA%D1%80%D0%BE%D0%B2%D0%BE%D0%BE%D0%B1%D1%80%D0%B0%D1%89%D0%B5%D0%BD%D0%B8%D1%8F_MAQUET_%28%D0%B1%D1%8B%D0%B2%D1%88._Jostra%29_HL_20.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+        "image": "images/avtojector.jpg"
       },
       {
         "year": "1925",
         "title": "Наблюдение космических лучей",
         "desc": "Дмитрий Скобельцын первым зафиксировал частицы высоких энергий в камере Вильсона. Это открытие стало началом ядерной физики высоких энергий и изучения космоса через излучения.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Cosmic_ray_flux_versus_particle_energy.svg/1280px-Cosmic_ray_flux_versus_particle_energy.svg.png?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+        "image": "images/imag123412312312es.jpg"
       },
       {
         "year": "1927",
         "title": "Промышленный синтетический каучук",
         "desc": "Сергей Лебедев разработал первый в мире метод получения резины из спирта. Это обеспечило экономическую независимость СССР и дало старт массовому производству шин и полимеров.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Sergey_Lebedev.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+        "image": "images/i1221leeemages.jpg"
       },
       {
         "year": "1927",
         "title": "Первый полупроводниковый светодиод",
         "desc": "Олег Лосев обнаружил свечение кристаллов при прохождении тока. Его работа «Crystalight» предвосхитила появление современных светодиодов и всей полупроводниковой оптоэлектроники.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Hexagonal_White_LED_module.jpg/1280px-Hexagonal_White_LED_module.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+        "image": "images/i111111111mages.jpg"
       },
       {
         "year": "1928",
         "title": "Комбинационное рассеяние света",
         "desc": "Леонид Мандельштам и Григорий Ландсберг открыли эффект изменения частоты света при рассеянии. Метод стал ключевым в мировой науке для изучения структуры сложных веществ.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Humid_4.JPG/1280px-Humid_4.JPG?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+        "image": "images/landsberg.jpg"
       },
       {
         "year": "1928",
         "title": "Теория цепных химических реакций",
         "desc": "Николай Семёнов создал теорию, объясняющую механизмы взрывов и горения. За эту работу он получил единственную в истории России Нобелевскую премию по химии (1956).",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/CNO_Cycle.svg/1280px-CNO_Cycle.svg.png?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+        "image": "images/ZKr09igaWQNiy7Q9BFCnZW9DuCKN7yeoqNL1zptY_min.jpg"
       },
       {
         "year": "1931",
@@ -530,31 +524,31 @@
         "year": "1933",
         "title": "Запуск ракеты ГИРД-09",
         "desc": "Группа Сергея Королёва запустила первую в СССР ракету на жидком топливе. Это событие доказало практическую возможность реактивных полетов и открыло путь в космос.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/%D0%A0%D0%B0%D0%BA%D0%B5%D1%82%D0%B0_09_%D0%B8_10.jpg/1280px-%D0%A0%D0%B0%D0%BA%D0%B5%D1%82%D0%B0_09_%D0%B8_10.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+        "image": "images/IMG-5300.jpg"
       },
       {
         "year": "1934",
         "title": "Эффект Вавилова — Черенкова",
         "desc": "Открытие свечения жидкости под действием радиации. Эффект используется в детекторах элементарных частиц на всех атомных станциях и ускорителях мира.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/f/f6/%D0%92%D0%B0%D0%B2%D0%B8%D0%BB%D0%BE%D0%B2_%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9_%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+        "image": "images/Advanced_Test_Reactor.jpg"
       },
       {
         "year": "1934",
         "title": "Первый импульсный радиолокатор",
         "desc": "Павел Ощепков разработал систему обнаружения самолетов с помощью радиоволн. Это заложило основы систем ПВО и управления воздушным движением во всем мире.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/b/bc/%D0%A0%D1%83%D1%81%E2%80%932.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+        "image": "images/ima3122312113333ges.jpg"
       },
       {
         "year": "1937",
         "title": "Перелет через Северный полюс",
         "desc": "Экипаж Валерия Чкалова совершил первый в мире беспосадочный перелет из СССР в США через Арктику. Это доказало превосходство советской авиации и открыло новые глобальные маршруты.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Nordpole-ru.png?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+        "image": "images/3457-3977.jpg"
       },
       {
         "year": "1938",
         "title": "Открытие сверхтекучести гелия",
         "desc": "Пётр Капица обнаружил исчезновение вязкости у жидкого гелия при сверхнизких температурах. За это фундаментальное открытие квантовой физики он был удостоен Нобелевской премии.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Helium3.svg/1280px-Helium3.svg.png?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+        "image": "images/494a9a6b53bfba77a85d34c738fc336f.jpg"
       },
       {
         "year": "1939",
@@ -566,7 +560,7 @@
         "year": "1941",
         "title": "Система «Катюша»",
         "desc": "Первая в мире массовая реактивная система залпового огня. Подвижность и мощь БМ-13 изменили тактику ведения наземных боев и стали символом победы в войне.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Katyusha_Rocket_Launcher_-_Artillery_Museum_-_St._Petersburg_-_Russia.jpg/1280px-Katyusha_Rocket_Launcher_-_Artillery_Museum_-_St._Petersburg_-_Russia.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+        "image": "images/katusha.jpg"
       },
       {
         "year": "1944",
@@ -578,13 +572,13 @@
         "year": "1944",
         "title": "Изобретение синхротрона",
         "desc": "Владимир Векслер сформулировал принцип автофазировки. Это позволило строить мощные ускорители частиц и совершать прорывы в понимании устройства материи.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/9/99/Minc_A.L.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+        "image": "images/veksler_0.jpg"
       },
       {
         "year": "1946",
         "title": "Ядерный реактор Ф-1",
         "desc": "Игорь Курчатов запустил первый в Европе и Азии атомный реактор. Это положило начало всей атомной энергетике и промышленности за пределами США.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Graphic_TMI-2_Core_End-State_Configuration.png/1280px-Graphic_TMI-2_Core_End-State_Configuration.png?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+        "image": "images/i1m222222222ages.jpg"
       },
       {
         "year": "1947",
@@ -596,19 +590,19 @@
         "year": "1948",
         "title": "Баллистическая ракета Р-1",
         "desc": "Сергей Королёв успешно запустил первую отечественную крупную ракету. Р-1 стала школой для конструкторов, создавших в дальнейшем ядерный щит и космические корабли.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/a/af/%D0%9F%D1%83%D1%81%D0%BA%D0%A0%D0%A120%D0%91%D0%B8%D0%B7%D0%BF%D0%BE%D0%B4%D0%9E%D1%80%D0%B5%D0%BD%D0%B1%D1%83%D1%80%D0%B3%D0%B0.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+        "image": "images/r1raketa.jpg"
       },
       {
         "year": "1949",
         "title": "Испытание атомной бомбы РДС-1",
         "desc": "Группа Игоря Курчатова успешно испытала первый атомный заряд, ликвидировав ядерную монополию США и установив стратегический паритет в мире.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/AirForceMuseum_FatManReplica.jpg/1280px-AirForceMuseum_FatManReplica.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+        "image": "images/280820201552.jpg"
       },
       {
         "year": "1950",
         "title": "МЭСМ — первая ЭВМ Европы",
         "desc": "Сергей Лебедев создал Малую электронную счётную машину. Это событие сделало СССР лидером компьютерных технологий своего времени и заложило базу для развития ИТ-отрасли.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Glen_Beck_and_Betty_Snyder_program_the_ENIAC_in_building_328_at_the_Ballistic_Research_Laboratory.jpg/1280px-Glen_Beck_and_Betty_Snyder_program_the_ENIAC_in_building_328_at_the_Ballistic_Research_Laboratory.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+        "image": "images/MESM.jpg"
       },
       {
         "year": "1951",
@@ -620,31 +614,31 @@
         "year": "1951",
         "title": "Магнитный реактор «Токамак»",
         "desc": "Андрей Сахаров и Игорь Тамм предложили концепцию удержания плазмы магнитным полем. Токамак стал мировым стандартом в разработке термоядерной энергии будущего.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/5/56/ITER_site_2018_aerial_view_%2841809720041%29.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+        "image": "images/tokamak.jpg"
       },
       {
         "year": "1951",
         "title": "Аппарат Илизарова",
         "desc": "Гавриил Илизаров изобрел устройство для чрескостного остеосинтеза. Технология совершила революцию в ортопедии, позволив удлинять конечности и лечить сложнейшие переломы.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Ilizarov_on_right_leg.jpg/1280px-Ilizarov_on_right_leg.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+        "image": "images/250px-Ilizarovapparatus.jpg"
       },
       {
         "year": "1953",
         "title": "Водородная бомба РДС-6с",
         "desc": "Испытана первая в мире транспортабельная термоядерная бомба (дизайн Сахарова). Технология «слойки» сделала водородное оружие реальным инструментом сдерживания.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/e/e9/A-bomb_%28RDS-1%29.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+        "image": "images/rds-6s.jpg"
       },
       {
         "year": "1954",
         "title": "Первая в мире АЭС",
         "desc": "В Обнинске запущена первая атомная электростанция. Это событие доказало возможность использования ядерной энергии в мирных целях для генерации электричества.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Stamp_of_USSR_1862.jpg/1280px-Stamp_of_USSR_1862.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+        "image": "images/1-01-l.jpg"
       },
       {
         "year": "1954",
         "title": "Создание микроволнового мазера",
         "desc": "Николай Басов и Александр Прохоров создали первый квантовый генератор. За это изобретение, ставшее основой лазерных технологий, они получили Нобелевскую премию.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Hmaser.svg/1280px-Hmaser.svg.png?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+        "image": "images/tass_3476255-scaled.jpg"
       },
       {
         "year": "1957",
@@ -656,13 +650,13 @@
         "year": "1957",
         "title": "Межконтинентальная ракета Р-7",
         "desc": "Сергей Королёв создал первую в мире МБР. «Семерка» стала основой для запуска первого спутника и всех пилотируемых кораблей «Союз» до сегодняшнего дня.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/a/af/%D0%9F%D1%83%D1%81%D0%BA%D0%A0%D0%A120%D0%91%D0%B8%D0%B7%D0%BF%D0%BE%D0%B4%D0%9E%D1%80%D0%B5%D0%BD%D0%B1%D1%83%D1%80%D0%B3%D0%B0.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+        "image": "images/bwrZlSGwxQce6Mf0173FkjEWkMjVQz6jV5zE3gKS_min.jpg"
       },
       {
         "year": "1957",
         "title": "Запуск «Спутника-1»",
         "desc": "Первый искусственный спутник Земли. Это событие открыло космическую эру в истории человечества и вызвало глобальный технологический рывок.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Sputnik-1.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+        "image": "images/imag2333333222222es.jpg"
       },
       {
         "year": "1957",
@@ -674,49 +668,49 @@
         "year": "1957",
         "title": "Синхрофазотрон в Дубне",
         "desc": "Запущен мощнейший ускоритель протонов своего времени. Объединенный институт ядерных исследований стал мировым центром фундаментальной физики.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/%D0%94%D1%83%D0%B1%D0%BD%D0%B0_%2850116392561%29.jpg/1280px-%D0%94%D1%83%D0%B1%D0%BD%D0%B0_%2850116392561%29.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+        "image": "images/lg!697.jpg"
       },
       {
         "year": "1959",
         "title": "«Луна-2»: достижение Луны",
         "desc": "Первый в истории рукотворный объект, достигший поверхности другого небесного тела. Станция доставила на Луну советский вымпел.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Luna_1_-_2_Spacecraft.png?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+        "image": "images/luna2.jpg"
       },
       {
         "year": "1959",
         "title": "Фото обратной стороны Луны",
         "desc": "Станция «Луна-3» впервые сфотографировала невидимую с Земли сторону Луны, передав уникальные данные для мировой астрономии.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Lunar_orbit.svg/1280px-Lunar_orbit.svg.png?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+        "image": "images/luna-3-moon.jpg"
       },
       {
         "year": "1961",
         "title": "Первый человек в космосе",
         "desc": "Юрий Гагарин совершил орбитальный полет на корабле «Восток-1». Глобальное событие, превратившее научную фантастику в реальность.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/%D0%92%D0%BE%D1%81%D1%82%D0%BE%D0%BA-1.jpg/1280px-%D0%92%D0%BE%D1%81%D1%82%D0%BE%D0%BA-1.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+        "image": "images/10-69.jpg"
       },
       {
         "year": "1961",
         "title": "Испытание «Царь-бомбы»",
         "desc": "Самое мощное взрывное устройство в истории (58 мегатонн). Испытание на Новой Земле показало пределы разрушительной силы и ускорило запрет ядерных тестов в атмосфере.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/AirForceMuseum_FatManReplica.jpg/1280px-AirForceMuseum_FatManReplica.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+        "image": "images/Tsar_Bomba_Revised.jpg"
       },
       {
         "year": "1962",
         "title": "Метод трехмерных голограмм",
         "desc": "Юрий Денисюк изобрел способ записи 3D-изображений в одной среде. Это легло в основу современных голографических технологий и методов защиты данных.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Holomouse2.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+        "image": "images/hologram3_0.jpg"
       },
       {
         "year": "1963",
         "title": "Первая женщина в космосе",
         "desc": "Валентина Терешкова совершила 71-часовой полет. Это достижение доказало возможность адаптации женского организма к космическим условиям.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/%D0%92%D0%BE%D1%81%D1%82%D0%BE%D0%BA-1.jpg/1280px-%D0%92%D0%BE%D1%81%D1%82%D0%BE%D0%BA-1.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+        "image": "images/imag44444es.jpg"
       },
       {
         "year": "1964",
         "title": "Шкала Кардашёва",
         "desc": "Николай Кардашёв предложил классификацию уровней технологического развития цивилизаций по потреблению энергии. Принята мировым научным сообществом.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Nikolai_Kardashev_1980.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+        "image": "images/9e448114c50b0429ad400c083074dab8-pic4_zoom-1500x1500-49374.jpg"
       },
       {
         "year": "1965",
@@ -728,7 +722,7 @@
         "year": "1966",
         "title": "Мягкая посадка на Луну",
         "desc": "Станция «Луна-9» впервые совершила успешное прилунение и передала первые в истории панорамы лунной поверхности.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Luna_9_Space_Probe.jpg/1280px-Luna_9_Space_Probe.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+        "image": "images/luna-9.jpg"
       },
       {
         "year": "1968",
@@ -740,7 +734,7 @@
         "year": "1968",
         "title": "Сверхзвуковой лайнер Ту-144",
         "desc": "Первый в мире полет сверхзвукового пассажирского самолета. Проект продемонстрировал пик авиационной инженерной мысли СССР.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Gedenktafel_an_der_Absturzstelle_bei_Gonesse_im_August_2018.jpg/1280px-Gedenktafel_an_der_Absturzstelle_bei_Gonesse_im_August_2018.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+        "image": "images/RIAN_archive_566221_Tu-144_passenger_airliner_(cropped).jpg"
       },
       {
         "year": "1970",
@@ -752,19 +746,19 @@
         "year": "1970",
         "title": "Передача данных с Венеры",
         "desc": "«Венера-7» стала первым аппаратом, выжившим в экстремальных условиях Венеры и передавшим научные данные с её поверхности.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/0/0a/1972_CPA_4166.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+        "image": "images/AQA4-R-QhE5FleAHcQnXNY_4V7j_WZMjxyDTInJsRoIVFZv9370p3zraF_U3IjCzAIBl_mFIJEcuhg1fRbyZxJJoE2c.jpg"
       },
       {
         "year": "1971",
         "title": "Первая орбитальная станция",
         "desc": "«Салют-1» стала первой в мире обитаемой лабораторией на орбите, положив начало эпохе длительных научных экспедиций в космосе.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Mir_Space_Station_viewed_from_Endeavour_during_STS-89.jpg/1280px-Mir_Space_Station_viewed_from_Endeavour_during_STS-89.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+        "image": "images/607fd98985600a7c35252fc8.jpg"
       },
       {
         "year": "1972",
         "title": "Тяжелый экранолет «Орлёнок»",
         "desc": "Ростислав Алексеев создал уникальный транспорт, использующий экранный эффект для полета над водой. Сочетал скорость самолета и грузоподъемность судна.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/%D0%AD%D0%BD%D0%B3%D0%B5%D0%BB%D1%8C%D1%81_%D0%A2%D1%83-95%D0%9C%D0%A1_23_%D1%84%D0%BE%D1%82%D0%BE_2.jpg/1280px-%D0%AD%D0%BD%D0%B3%D0%B5%D0%BB%D1%8C%D1%81_%D0%A2%D1%83-95%D0%9C%D0%A1_23_%D1%84%D0%BE%D1%82%D0%BE_2.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+        "image": "images/orlenok_2.jpg"
       },
       {
         "year": "1975",
@@ -776,7 +770,7 @@
         "year": "1984",
         "title": "Разработка «Тетриса»",
         "desc": "Программист Алексей Пажитнов создал игру, ставшую культурным феноменом и самой популярной видеоигрой в истории человечества.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Alexey_Pajitnov_GDC_2024_%28cropped%29.jpg/1280px-Alexey_Pajitnov_GDC_2024_%28cropped%29.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+        "image": "images/ima566666ges.jpg"
       },
       {
         "year": "1986",
@@ -811,13 +805,13 @@
         "year": "1999",
         "title": "Синтез 114-го элемента — Флеровий",
         "desc": "Учёные Объединённого института ядерных исследований в Дубне под руководством Юрия Оганесяна впервые синтезировали элемент с атомным номером 114. Элемент назван Флеровий (Fl) в честь Флёровской лаборатории. Открытие подтвердило существование «острова стабильности» тяжёлых ядер и укрепило лидерство России в ядерной физике.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Island_of_Stability_derived_from_Zagrebaev.svg/1280px-Island_of_Stability_derived_from_Zagrebaev.svg.png?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+        "image": "images/503822405_5B1_5D.jpg"
       },
       {
         "year": "2000",
         "title": "Синтез 116-го элемента — Ливерморий",
         "desc": "Учёные ОИЯИ в Дубне совместно с американской Ливерморской лабораторией синтезировали элемент №116 — Ливерморий (Lv). Это стало результатом советско-американского научного сотрудничества и ещё одним шагом в изучении сверхтяжёлых элементов периодической таблицы.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/8/83/Melnick_34_-_Hubble_-_WFPC2.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+        "image": "images/637199586595070000.jpg"
       },
       {
         "year": "2002",
@@ -829,13 +823,13 @@
         "year": "2002",
         "title": "Синтез 118-го элемента — Оганесон",
         "desc": "Лаборатория ОИЯИ в Дубне синтезировала самый тяжёлый из известных элементов — Оганесон (Og, №118), названный в честь академика Юрия Оганесяна. Это последний элемент седьмого периода таблицы Менделеева и единственный элемент, названный при жизни учёного.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Periodic_table_ru.svg/1280px-Periodic_table_ru.svg.png?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+        "image": "images/2x2m-full.jpg"
       },
       {
         "year": "2003",
         "title": "Синтез 115-го элемента — Московий",
         "desc": "Учёные ОИЯИ в Дубне синтезировали элемент №115 — Московий (Mc), названный в честь Московской области. Открытие подтвердило теоретические предсказания об «острове стабильности» и стало частью серии российских открытий, существенно расширивших периодическую таблицу.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Cortisol3.svg/1280px-Cortisol3.svg.png?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+        "image": ""
       },
       {
         "year": "2004",
@@ -853,13 +847,13 @@
         "year": "2010",
         "title": "Синтез 117-го элемента — Теннессин",
         "desc": "ОИЯИ в Дубне совместно с американскими лабораториями синтезировал элемент №117 — Теннессин (Ts). Это открытие завершило заполнение седьмого периода таблицы Менделеева. Россия стала единственной страной, причастной к открытию сразу четырёх новых элементов таблицы в XXI веке.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Isoprene_Structural_Formulae_V.2.svg/1280px-Isoprene_Structural_Formulae_V.2.svg.png?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+        "image": ""
       },
       {
         "year": "2011",
         "title": "Радиотелескоп «Спектр-Р» (Радиоастрон)",
         "desc": "Россия запустила космический радиотелескоп «Спектр-Р» — часть проекта «Радиоастрон». В связке с наземными телескопами он образовал инструмент диаметром 340 000 км, ставший самым большим телескопом в истории человечества. Проект позволил получить изображения чёрных дыр с беспрецедентным разрешением.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Radio_telescope_of_Kalyazin.jpg/1280px-Radio_telescope_of_Kalyazin.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+        "image": "images/d4e1351a43d1e9aeb0bee0d74f3032ac.jpg"
       },
       {
         "year": "2014",
@@ -877,13 +871,13 @@
         "year": "2019",
         "title": "Рентгеновская обсерватория «Спектр-РГ»",
         "desc": "Россия совместно с Германией запустила орбитальную обсерваторию «Спектр-РГ». За первые годы работы она составила наиболее полную карту рентгеновского неба, обнаружив более миллиона объектов, в том числе сотни тысяч чёрных дыр и скоплений галактик. Это крупнейший вклад России в астрофизику за постсоветский период.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/8/8e/RIAN_archive_930415_Russian_Spektr_R_space-born_radio_telescope.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+        "image": "images/im777777ages.jpg"
       },
       {
         "year": "2020",
         "title": "Регистрация вакцины «Спутник V»",
         "desc": "Национальный исследовательский центр им. Гамалеи зарегистрировал «Спутник V» — первую в мире официально одобренную вакцину против COVID-19. Разработанная на платформе аденовирусных векторов, вакцина показала эффективность свыше 91%. Россия поставила «Спутник V» более чем в 70 стран мира.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/World_map_of_share_of_people_who_received_all_doses_prescribed_by_the_initial_COVID-19_vaccination_protocol.png/1280px-World_map_of_share_of_people_who_received_all_doses_prescribed_by_the_initial_COVID-19_vaccination_protocol.png?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+        "image": "images/240923490349034.jpg"
       }
     ]
   }
