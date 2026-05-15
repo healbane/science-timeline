@@ -6,25 +6,25 @@
         "year": "1698",
         "title": "Первая русская газета «Ведомости»",
         "desc": "При Петре I создана газета «Ведомости» — первое периодическое печатное издание в России.",
-        "image": "images/vedomosti.jpg"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3%D1%81%D0%BA%D0%B8%D0%B5_%D0%B2%D0%B5%D0%B4%D0%BE%D0%BC%D0%BE%D1%81%D1%82%D0%B8_2_%D1%8F%D0%BD%D0%B2%D0%B0%D1%80%D1%8F_1728.jpg/1280px-%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3%D1%81%D0%BA%D0%B8%D0%B5_%D0%B2%D0%B5%D0%B4%D0%BE%D0%BC%D0%BE%D1%81%D1%82%D0%B8_2_%D1%8F%D0%BD%D0%B2%D0%B0%D1%80%D1%8F_1728.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
       },
       {
         "year": "1714",
         "title": "Кунсткамера — первый музей России",
         "desc": "Пётр I основал первый публичный музей в России с коллекцией природных редкостей и научных инструментов.",
-        "image": "images/kunstkamera.jpg"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Saint_Petersburg_Kunstkamera_from_Neva.jpg/1280px-Saint_Petersburg_Kunstkamera_from_Neva.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
       },
       {
         "year": "1724",
         "title": "Основание Российской академии наук",
         "desc": "Указ Петра I о создании главного научного центра России, объединившего ведущих учёных страны.",
-        "image": "images/academy.jpg"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Ras-logo.svg/1280px-Ras-logo.svg.png?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
       },
       {
         "year": "1766",
         "title": "Паровая машина Ползунова",
         "desc": "Иван Ползунов создал первую в России паровую машину — двухцилиндровый двигатель для воздуходувных мехов на Барнаульском заводе. Один из первых паровых двигателей в мире.",
-        "image": "images/polzunov.jpg"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/%D0%93%D0%BE%D1%80%D0%B8%D0%B7%D0%BE%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D1%80%D0%BD%D0%B0%D1%8F_%D0%BF%D0%B0%D1%80%D0%BE%D0%B2%D0%B0%D1%8F_%D0%BC%D0%B0%D1%88%D0%B8%D0%BD%D0%B0.JPG/1280px-%D0%93%D0%BE%D1%80%D0%B8%D0%B7%D0%BE%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D1%80%D0%BD%D0%B0%D1%8F_%D0%BF%D0%B0%D1%80%D0%BE%D0%B2%D0%B0%D1%8F_%D0%BC%D0%B0%D1%88%D0%B8%D0%BD%D0%B0.JPG?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
       }
     ]
   },
@@ -35,31 +35,31 @@
         "year": "1826",
         "title": "Неевклидова геометрия Лобачевского",
         "desc": "Николай Лобачевский опубликовал труд о новой геометрии, опровергающий аксиому Евклида — революция в математике.",
-        "image": "images/lobachevsky.jpg"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Comparison_of_geometries-ru.svg.2023_11_01_16_31_11.0.svg/1280px-Comparison_of_geometries-ru.svg.2023_11_01_16_31_11.0.svg.png?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
       },
       {
         "year": "1834",
         "title": "Первый электромотор и электровоз Якоби",
         "desc": "Борис Якоби создал первый практически пригодный электродвигатель постоянного тока и электровоз. Это заложило основу электрического транспорта.",
-        "image": "images/yakobi.jpg"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/8/89/Motors01CJC.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
       },
       {
         "year": "1869",
         "title": "Периодический закон Менделеева",
         "desc": "Дмитрий Менделеев открыл фундаментальный закон химии и создал таблицу элементов, предсказав свойства ещё не открытых веществ.",
-        "image": "images/mendeleev.jpg"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Mengyelejev-Pozsony.jpg/1280px-Mengyelejev-Pozsony.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
       },
       {
         "year": "1876",
         "title": "Радиоприёмник Попова",
         "desc": "Александр Попов продемонстрировал первый в мире радиоприёмник на заседании Русского физико-химического общества, открыв эпоху беспроводной связи.",
-        "image": "images/popov.jpg"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Vincent_Morrison_Brennan_Radio_1922.jpg/1280px-Vincent_Morrison_Brennan_Radio_1922.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
       },
       {
         "year": "1888",
         "title": "Опыты Столетова по фотоэффекту",
         "desc": "Александр Столетов провёл систематические опыты с фотоэлектрическим эффектом, заложив основы квантовой физики и будущей электроники.",
-        "image": "images/stoletov.jpg"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Ivan_Filippovich_Usagin.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
       }
     ]
   },
@@ -70,25 +70,25 @@
         "year": "1903",
         "title": "Теория ракетного движения Циолковского",
         "desc": "Константин Циолковский опубликовал уравнение реактивного движения и обосновал возможность межпланетных путешествий. Это фундамент всей современной космонавтики.",
-        "image": "images/tsiolkovsky.jpg"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/a/a8/%D0%9A%D0%BE%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%82%D0%B8%D0%BD_%D0%A6%D0%B8%D0%BE%D0%BB%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
       },
       {
         "year": "1913",
         "title": "Самолёт «Илья Муромец» Сикорского",
         "desc": "Игорь Сикорский построил первый в мире четырёхмоторный самолёт с пассажирским салоном, отоплением и электрическим освещением.",
-        "image": "images/ilya-muromets.jpg"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/f/fb/%D0%A1%D0%B0%D0%BC%D0%BE%D0%BB%D0%B5%D1%82_%22%D0%98%D0%BB%D1%8C%D1%8F_%D0%9C%D1%83%D1%80%D0%BE%D0%BC%D0%B5%D1%86%22.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
       },
       {
         "year": "1922",
         "title": "Первое советское радиовещание",
         "desc": "В СССР запущено регулярное радиовещание — технология охватила огромную страну и стала главным средством информации на десятилетия.",
-        "image": "images/radio.jpg"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Long_wave_radio_station_002_Motala_Sweden.JPG/1280px-Long_wave_radio_station_002_Motala_Sweden.JPG?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
       },
       {
         "year": "1939",
         "title": "Вертолёт Сикорского VS-300",
         "desc": "Игорь Сикорский создал первый практически пригодный одновинтовой вертолёт — схема, которая стала мировым стандартом по сей день.",
-        "image": "images/sikorsky.jpg"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Sikorsky%2C_Igor.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
       }
     ]
   },
@@ -105,19 +105,19 @@
         "year": "1954",
         "title": "Первая в мире атомная электростанция",
         "desc": "В Обнинске заработала первая в мире АЭС мощностью 5 МВт. Это открыло эпоху мирного атома и промышленной ядерной энергетики.",
-        "image": "images/aes-obninsk.jpg"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/RIAN_archive_409173_World%27s_first_nuclear_power_plant_in_Obninsk.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
       },
       {
         "year": "1957",
         "title": "Спутник-1 — первый спутник Земли",
         "desc": "СССР запустил первый искусственный спутник Земли. Его сигнал облетел планету и открыл космическую эру человечества.",
-        "image": "images/sputnik.jpg"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Sputnik-1.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
       },
       {
         "year": "1961",
         "title": "Полёт Гагарина в космос",
         "desc": "Юрий Гагарин стал первым человеком в космосе, совершив орбитальный полёт на корабле «Восток-1» продолжительностью 108 минут.",
-        "image": "images/gagarin.jpg"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/%D0%92%D0%BE%D1%81%D1%82%D0%BE%D0%BA-1.jpg/1280px-%D0%92%D0%BE%D1%81%D1%82%D0%BE%D0%BA-1.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
       },
       {
         "year": "1970",
@@ -129,7 +129,7 @@
         "year": "1986",
         "title": "Орбитальная станция «Мир»",
         "desc": "Запущена орбитальная станция «Мир» — крупнейший космический объект своего времени, проработавший 15 лет и принявший экипажи из 12 стран.",
-        "image": "images/mir.jpg"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Mir_Space_Station_viewed_from_Endeavour_during_STS-89.jpg/1280px-Mir_Space_Station_viewed_from_Endeavour_during_STS-89.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
       }
     ]
   },
@@ -140,13 +140,13 @@
         "year": "2010",
         "title": "Нобелевская премия за графен",
         "desc": "Андрей Гейм и Константин Новосёлов получили Нобелевскую премию по физике за открытие графена — материала будущей электроники.",
-        "image": "images/graphene.jpg"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/9/92/Norske_nobelinstiutt_1.jpg?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
       },
       {
         "year": "2020",
         "title": "Первая в мире вакцина от COVID-19",
         "desc": "Россия зарегистрировала «Спутник V» — первую в мире официально зарегистрированную вакцину против COVID-19, разработанную центром Гамалеи.",
-        "image": "images/sputnik-v.jpg"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/World_map_of_share_of_people_who_received_all_doses_prescribed_by_the_initial_COVID-19_vaccination_protocol.png/1280px-World_map_of_share_of_people_who_received_all_doses_prescribed_by_the_initial_COVID-19_vaccination_protocol.png?utm_source=ru.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
       }
     ]
   }
